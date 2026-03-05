@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
     paddingHorizontal: 16,
-    paddingTop: 40,
+    paddingTop: 70,
   },
   header: {
     flexDirection: "row",
@@ -51,10 +51,13 @@ export const styles = StyleSheet.create({
     backgroundColor: "rgba(0,0,0,0.5)",
   },
   modalContent: {
+    flexGrow: 1,
+    justifyContent: "flex-end",
+  },
+  modalInner: {
     backgroundColor: "white",
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
-    marginTop: "auto",
     padding: 20,
     paddingBottom: 40,
   },
@@ -67,7 +70,7 @@ export const styles = StyleSheet.create({
   modalTitle: {
     fontSize: 20,
     fontWeight: "bold",
-    color: "#000",
+    color: "#43428c",
   },
   modalInput: {
     borderWidth: 1,
